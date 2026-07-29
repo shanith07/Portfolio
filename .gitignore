@@ -20,3 +20,5 @@ media/
 
 # macOS
 .DS_Store
+
+.env
