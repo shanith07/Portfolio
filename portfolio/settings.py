@@ -29,7 +29,11 @@ SECRET_KEY = 'django-insecure-!_q4j9&8lme$2g4f^tp$%*!%0q0a#84e*#gl244qykem_%g2&l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "shanith-portfolio.onrender.com",
+]
 
 
 # Application definition
@@ -83,7 +87,7 @@ EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
 
-EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")  
 
 
 
