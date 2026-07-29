@@ -6,4 +6,4 @@ sqlparse==0.5.3
 tzdata==2025.2
 gunicorn==23.0.0
 python-dotenv==1.1.1
-whitenoise==6.x.x
+whitenoise==6.12.0
